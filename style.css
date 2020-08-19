@@ -1,5 +1,5 @@
 img{
-    object-position: cover;
+    object-fit: cover;
     height: 200px;
     width: 200px;
 }
@@ -10,4 +10,13 @@ img{
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+#intro{
+    display: inline-flex;
+    padding: 100px;
+}
+
+#hiEK{
+    
 }
