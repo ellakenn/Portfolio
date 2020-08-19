@@ -6,5 +6,8 @@ img{
 
 #kwk18{
     display: inline-flex;
+}
 
+body{
+    font-family: 'Open Sans', sans-serif;
 }
