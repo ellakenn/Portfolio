@@ -1,22 +1,70 @@
-img{
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-}
-
-#kwk18, #kwk19{
-    display: inline-flex;
-}
-
 body{
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 #intro{
-    display: inline-flex;
-    padding: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+#abDescription{
+    width: 50%;
+    margin: 10px;
+}
+
+#mePic{
+    align-self: center;
+    width: 250px;
+    height: 250px;
+}
+
+.secName{
+    text-align: center;
+}
+
+#aboutMe{
+    display: flex;
+    justify-content: space-around;
 }
 
 #hiEK{
-    
+    padding: 100px;
 }
+
+#totalprojects{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+img{
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    padding: 3%;
+}
+
+.projectPic:hover {
+  border: 5px solid skyblue;
+    transition: .5s;
+}
+.test {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#kwk18 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* 
+.descriptions{
+
+    /* width: 50%; */
