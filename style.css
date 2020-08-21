@@ -4,15 +4,70 @@ body{
 
 }
 
+
+/* NAV BAR */
+#navBar{
+    display: flex;
+    background-color: lightpink;
+
+}
+
+#navName{
+    width: 50%;
+    padding: 10px;
+}
+
+#nav{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-self: center;
+}
+
+.navLi{
+    display: inline;
+}
+
+
+/* NAMES OF SECTION */
+.secName{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
+/* INTRO SECTION */
 #intro{
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+}
+
+#hiEK{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+
+/* ABOUT SECTION */
+#aboutSec{
+    background-color: navy;
+}
+
+#aboutName{
+    color: white;
 }
 
 #abDescription{
     width: 50%;
     margin: 10px;
+    align-self: center;
+    color: white;
 }
 
 #mePic{
@@ -21,23 +76,25 @@ body{
     height: 250px;
 }
 
-.secName{
-    text-align: center;
-}
-
 #aboutMe{
     display: flex;
     justify-content: space-around;
 }
 
-#hiEK{
-    padding: 100px;
+
+/* PROJECTS SECTION */
+#projectSec{
+    background-color: snow;
+}
+
+#projectName{
+    color: navy;
 }
 
 #totalprojects{
     display: flex;
     justify-content: center;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -50,20 +107,34 @@ img{
 }
 
 .projectPic:hover {
-  border: 5px solid skyblue;
+  border: 5px solid navy;
     transition: .5s;
 }
-.test {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
+/* CONTACT SECTION */
+#contactSec{
+    justify-content: center;
 }
-#kwk18 {
-  position: relative;
-  text-align: center;
-  color: white;
+
+#contactName{
+    display: flex;
+    justify-content: center;
+    color: navy;
 }
+
+#contactList{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.contactLi{
+    padding: 10px;
+    display: inline;
+}
+
 /* 
 .descriptions{
 

@@ -9,53 +9,74 @@
     </head>
     <body>
 
-
-
         <!-- can't figure out text overlay when hover over picture -->
+
+
+        <!-- NAV BAR -->
+        <div id = "navBar">
+            <div id = "navName">
+            <h2>Ella Kennedy</h2>
+            </div>
+            <ul id = "nav">
+                <li class = "navLi"><a href = "#intro">Home</a></li>
+                <li class = "navLi"><a href = "#aboutSec">About</a></li>
+                <!-- <li>Resume</li> -->
+                <li class = "navLi"><a href = "#projectSec">Projects</a></li>
+                <li class = "navLi"><a href = "#contactSec">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <!-- INTRO PORTION -->
         <div id = "intro">
             <h1 id = "hiEK">Hi! I'm Ella Kennedy, an aspiring website developer. </h1>    
         </div>
         
-        <h1 class = "secName">About Me</h1>
-        <div id="aboutMe">
-            <p class = "descriptions" id = "abDescription"> I'm a high school senior from Seattle, Washington, pursuing a degree in Computer Science. Some of my passions are running, 
-                playing the bass, and learning new skills like painting! I have been interested in computer science since elementary school
-                and ever since have wanted technology to be in my future career. I have been learning how to code through camps, such as Kode
-                With Klossy, and teaching myself using CodeCademy. To learn more about my accomplishments and experiences, click the button 
-                below to download my resume, or keep scrolling to see some projects I have contributed to.</p>
-            <img src="porfoliopic.jpg" id = "mePic">
-            
-        </div>
-        <button>Resume</button>
-        
-        <div id = "projectSec">
-            <h1 class = "secName">Projects</h1>
-            <div id = "totalprojects">
-        <div id = "kwk18">
-                <img src = "Screenshot (89).png" alt = "KWK 2018" id = "pic18" class = "projectPic">
-                <div class = "test">test</div>
-                    <!-- <div class="text">I built this webpage with a team of 2 other young women at a camp called Kode With Klossy in 2018. Our
-                    goal was to build a website that informs users about endagered animal species and to provide ways that users can help.</div> -->
-                
 
-        </div>
-        <!-- <div id = "kwk19">  -->
-                <img src = "Screenshot (88).png" alt = "KWK 2019" id = "pic19" class = "projectPic">
-                <!-- <div class="overlay">
-                    <div class="text">I built this webpage with a team of 2 other young women at a camp called Kode With Klossy in 2019. Our goal was to build
-                    a website that informed users about the dangers of domestic violence and provide resources for victims and those who want to help.</div>
-                </div> -->
+
+        <!-- ABOUT ME SECTION -->
+        <div id = "aboutSec">
+            <h1 class = "secName" id = "aboutName">About Me</h1>
+            <div id="aboutMe">
+            <p class="descriptions" id="abDescription"> I'm a high school senior from Seattle, Washington, pursuing a degree in
+                Computer Science. Some of my passions are running, playing the bass, and learning new skills like painting! I have 
+                been interested in computer science since elementary school and ever since have wanted technology to be in my future 
+                career. I have been learning how to code through camps, such as Kode With Klossy, and teaching myself using CodeCademy. 
+                To learn more about my accomplishments and experiences, click the button below to download my resume, or keep 
+                scrolling to see some projects I have contributed to.</p>
+                <img src="porfoliopic.jpg" id = "mePic">
             
             </div>
-        <!-- </div> -->
         </div>
 
-        <h1 class = "secName">Contact Me</h1>
-        <a href = "">Gmail</a>
-        <a href = "https://www.instagram.com/ellaekenn/">Instagram</a>
-        <a href = "https://www.linkedin.com/in/ella-kennedy-a2955816a/">LinkedIn</a>
-        <a href = "https://twitter.com/ella_kenn07">Twitter</a>
-        <a href = "">Github</a>
+
+
+        <!-- PROJECTS SECTION -->
+        <div id = "projectSec">
+            <h1 class = "secName" id = "projectName">Projects</h1>
+            <div id = "totalprojects">
+                <a href = "http://stand4wildlife.herokuapp.com/"><img src = "Screenshot (89).png" alt = "KWK 2018" id = "pic18" class = "projectPic"></a>
+                    <!-- <div class="text">I built this webpage with a team of 2 other young women at a camp called Kode With Klossy in 2018. Our
+                    goal was to build a website that informs users about endagered animal species and to provide ways that users can help.</div> -->            
+                <a href = "https://mayauj6.github.io/final-project/index.html"><img src = "Screenshot (88).png" alt = "KWK 2019" id = "pic19" class = "projectPic"></a>
+                    <!-- <div class="text">I built this webpage with a team of 2 other young women at a camp called Kode With Klossy in 2019. Our goal was to build
+                    a website that informed users about the dangers of domestic violence and provide resources for victims and those who want to help.</div> -->            
+            </div>
+        </div>
+
+
+
+        <!-- CONTACT ME SECTION --> 
+        <div id="contactSec">
+            <h1 class = "secName" id = "contactName">Contact Me</h1>
+            <ul id = "contactList">
+                <!-- <a href = "">Gmail</a> -->
+                <li class = "contactLi"><a href = "https://www.instagram.com/ellaekenn/">Instagram</a></li>
+                <li class = "contactLi"><a href = "https://www.linkedin.com/in/ella-kennedy-a2955816a/">LinkedIn</a></li>
+                <li class = "contactLi"><a href = "https://twitter.com/ella_kenn07">Twitter</a></li>
+                <li class = "contactLi"><a href = "https://github.com/ellakenn">Github</a></li>
+            </ul>
+        </div>
 
         <!-- <h3>Education</h3>
             <ul>
@@ -95,7 +116,7 @@
                     products,and ensure store stays clean and organized</li>
                 </ul>
             </ul>    
-
+,
         <h4>Volunteering</h4>
             <ul>
                 <li>Planned and lead tours at the Seattle Art Museum to school classes (2018)</li>
