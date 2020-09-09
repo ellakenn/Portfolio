@@ -1,8 +1,18 @@
 body{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
-
 }
+
+p{
+    color: darkslategrey
+}
+
+a{
+    text-decoration: underline;
+    color: darkslategrey;
+}
+
+
 
 
 /* NAV BAR */
@@ -12,7 +22,7 @@ nav{
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: cornflowerblue;
 
 }
 
@@ -56,28 +66,34 @@ nav{
     /* background-color: lightblue; */
 }
 
-#hiEK{
+#myName{
+    color: cornflowerblue;
+}
 
+
+#hiEK{
+    font-size: 45px;
+    color: darkslategrey
 }
 
 
 /* ABOUT SECTION */
 #aboutSec{
-    background-color: navy;
+    background-color: lightblue;
     padding-bottom: 20px;
 
 }
 
 #aboutName{
     padding-top: 10px;
-    color: white;
+    color: darkslategrey;
 }
 
 #abDescription{
     width: 50%;
     margin: 10px;
     align-self: center;
-    color: white;
+    color: darkslategrey;
 }
 
 #mePic{
@@ -98,7 +114,7 @@ nav{
 }
 
 #projectName{
-    color: navy;
+    color: cornflowerblue;
 }
 
 #totalprojects{
@@ -112,25 +128,30 @@ img{
     object-fit: cover;
     height: 400px;
     width: 400px;
-    border: 5px solid white;
+    border: 5px solid darkslategrey;
     padding: 3%;
 }
 
 .projectPic:hover {
-  border: 5px solid navy;
+  border: 5px solid cornflowerblue;
     transition: .5s;
 }
 
 
 /* CONTACT SECTION */
 #contactSec{
+    background-color: lightblue;
     justify-content: center;
+    margin: 0px;
+    padding-bottom: 20px;
 }
 
 #contactName{
     display: flex;
     justify-content: center;
-    color: navy;
+    color: darkslategrey;
+    padding-top: 20px;
+    
 }
 
 #contactList{
@@ -145,7 +166,18 @@ img{
     display: inline;
 }
 
-/* 
-.descriptions{
 
-    /* width: 50%; */
+/* FOOTER */
+#footer{
+    background-color: cornflowerblue;
+    margin-top: -16px;
+    margin-bottom: -16px;
+    padding: 50px;
+}
+
+#footer p {
+    display: flex;
+    justify-content: center;
+    color: darkslategrey;
+
+}
