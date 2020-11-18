@@ -109,9 +109,9 @@ nav{
 
 
 /* PROJECTS SECTION */
-#projectSec{
+/* #projectSec{
     /* background-color: ; */
-}
+} */
 
 #projectName{
     color: cornflowerblue;
@@ -177,6 +177,7 @@ img{
 #contactPic{
     height: 10px;
     width: 10px;
+    border: none;
 }
 
 /* FOOTER */
