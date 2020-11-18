@@ -164,6 +164,14 @@ img{
 .contactLi{
     padding: 10px;
     display: inline;
+    display: flex;
+}
+
+.contactPic{
+    width: 30px;
+    height: 30px;
+    border: none;
+
 }
 
 
