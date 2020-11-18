@@ -178,9 +178,9 @@ img{
     height: 50px;
     width: 50px;
     border: none;
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
-    justify-content: center;
+    justify-content: center; */
 
 }
 
