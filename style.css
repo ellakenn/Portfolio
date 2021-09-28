@@ -22,7 +22,7 @@ nav{
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color:#74B25D;
 
 }
 
@@ -67,7 +67,7 @@ nav{
 }
 
 #myName{
-    color: cornflowerblue;
+    color: #228B22;
 }
 
 
@@ -79,7 +79,7 @@ nav{
 
 /* ABOUT SECTION */
 #aboutSec{
-    background-color: 8DB38B;
+    background-color: #B1DCA1;
     padding-bottom: 20px;
 
 }
@@ -133,14 +133,14 @@ img{
 }
 
 .projectPic:hover {
-  border: 5px solid cornflowerblue;
+  border: 5px solid #228B22;
     transition: .5s;
 }
 
 
 /* CONTACT SECTION */
 #contactSec{
-    background-color: lightblue;
+    background-color: #B1DCA1;
     justify-content: center;
     margin: 0px;
     padding-bottom: 20px;
@@ -186,7 +186,7 @@ img{
 
 /* FOOTER */
 #footer{
-    background-color: cornflowerblue;
+    background-color: #74B25D;
     margin-top: -16px;
     margin-bottom: -16px;
     padding: 50px;
